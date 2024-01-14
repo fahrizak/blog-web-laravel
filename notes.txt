@@ -1,0 +1,5 @@
+1. Terakhir Belajar Sampai Router, Layout, Foreach
+
+Rencana Belajar Selanjutnya
+1. Model, Controller, 
+2. Buat Model Post dan User dulu saja
