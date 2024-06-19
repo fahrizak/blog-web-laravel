@@ -11,7 +11,7 @@
             <div class="col-md-4 mb-4">
                 <a href="/posts?category={{ $category->slug }}">
                     <div class="card bg-dark text-white">
-                        <img src="https://source.unsplash.com/600x500?{{ $category->slug }}" class="card-img-top" style="filter: brightness(50%);" alt="{{ $category->name }}" class="card-img">
+                        <img src="https://picsum.photos/600/500?{{ $category->slug }}" class="card-img-top" style="filter: brightness(50%);" alt="{{ $category->name }}" class="card-img">
                         <div class="card-img-overlay" style="display: grid; place-items: center;">
                         <h5 class="card-title">{{ $category->name }}</h5>
                         </div>

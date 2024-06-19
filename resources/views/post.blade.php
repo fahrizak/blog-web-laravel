@@ -14,7 +14,7 @@
                 <img src="{{ asset('storage/' . $post->image) }}" class="img-fluid" alt="{{ $post->category->name }}">
             </div>
             @else
-            <img src="https://source.unsplash.com/700x400?{{ $post->category->slug }}" class="img-fluid" alt="{{ $post->category->name }}">
+            <img src="https://picsum.photos/700/400?{{ $post->category->slug }}" class="img-fluid" alt="{{ $post->category->name }}">
             @endif
             <article class="fs-5 my-3">
                {!! $post->body !!}

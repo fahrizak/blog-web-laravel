@@ -28,7 +28,7 @@
             </div>
             @else
                 
-            <img src="https://source.unsplash.com/1200x400?{{ $posts[0]->category->slug }}" class="card-img-top" alt="{{ $posts[0]->category->name }}">
+            <img src="https://picsum.photos/1200/400?{{ $posts[0]->category->slug }}" class="card-img-top" alt="{{ $posts[0]->category->name }}">
             @endif
             
             <div class="card-body text-center">
@@ -55,7 +55,7 @@
                         <img src="{{ asset('storage/' . $post->image) }}" class="card-img-top" style="max-height: 250px" alt="{{ $post->category->name }}">
                     </div>
                     @else
-                    <img src="https://source.unsplash.com/600x500?{{ $post->category->slug }}" class="card-img-top" alt="{{ $post->category->name }}">
+                    <img src="https://picsum.photos/600/500?{{ $post->category->slug }}" class="card-img-top" alt="{{ $post->category->name }}">
                     
                     @endif
 
